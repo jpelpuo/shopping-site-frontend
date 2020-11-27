@@ -60,7 +60,7 @@ const WishlistPage = () => {
         setItems([...itemsToDisplay]);
 
 
-    }, [wishlist]);
+    }, [wishlist, products]);
 
     const handleClearWishlist = () => {
         clearWishlist();

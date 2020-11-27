@@ -1,8 +1,8 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import NavBar from '../components/NavBar';
 import { Container } from 'react-bootstrap';
 import styled from 'styled-components';
-import ProductContext from '../context/product-context';
+// import ProductContext from '../context/product-context';
 
 const MainContainer = styled(Container)`
     padding: 0;

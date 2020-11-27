@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useContext } from 'react';
 import styled from 'styled-components';
 import { Card, Button } from 'react-bootstrap';
 import { useParams, useHistory } from 'react-router-dom';
@@ -8,7 +8,7 @@ import ProductContext from '../../context/product-context';
 import AuthContext from '../../context/auth-context';
 
 
-const { Img, Text, Subtitle, Title, Body } = Card;
+const { Img, Subtitle, Title, Body } = Card;
 
 const MainWrapper = styled.div`
     display: flex;

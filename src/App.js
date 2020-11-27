@@ -74,8 +74,8 @@ function App() {
 
   const addToCart = async productId => {
     try {
-      const response = await fetch(`https://secret-anchorage-57474.herokuapp.com/api/cart/add/${productId}`);
-      const responseData = Response.json();
+      // const response = await fetch(`https://secret-anchorage-57474.herokuapp.com/api/cart/add/${productId}`);
+      // const responseData = Response.json();
 
 
       setCartItems([productId, ...cartItems]);
@@ -154,7 +154,7 @@ function App() {
     // userInfo.wishlist = [...wishlist];
     // userInfo.history = [...history];
     // localStorage.setItem(userEmail, JSON.stringify(userInfo));
-  }, [cartItems, wishlist, history]);
+  }, [cartItems, wishlist, history, accessToken]);
 
   return (
     <div className="App">
